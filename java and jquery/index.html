@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+    $(document).on("mobileinit", function () {
+      $.mobile.ajaxEnabled = false;
+    });
+  </script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+
+<div data-role="page" id="my-details">
+
+  <div data-role="header">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home">My Details</a></li>
+          <li><a href="missionary.html" class="ui-btn-active" data-icon="info">Missionary</a></li>
+          <li><a href="duration2.html" data-icon="star">duration</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="content" style="padding: 20px;">
+    <h2>My Details</h2>
+        <h1>Liberty University - CSIS 408</h1>
+
+        <figure>
+            <img src="images/me.JPG" alt="Picture of Me" width="200">
+            <figcaption>This is me (i went through a racketball phase)</figcaption>
+        </figure>
+
+    
+
+        
+        <p>
+            My name is Michael Hatcher, I'm a senior that recently walked 2 weeeks ago and is finishing up my classes for my web/mobile programming degree. I'm excited for this class so that i can strengthen my html and css skills and learn more creating and editing websites
+        </p>
+
+        
+        <h2>3 Facts About Me</h2>
+        <ul>
+            <li>I like playing sports.</li>
+            <li>I have a dog named bailey.</li>
+            <li>I like to cook</li>
+        </ul>
+
+
+        <style>
+        table, th, td {
+         border:1px solid black;
+            }
+        </style>
+        
+        <h2>My Info Table</h2>
+        <table style="width:100%">
+        <tr>
+            <th>Phone number</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Favorite bible verse</th>
+        </tr>
+        <tr>
+            <td>(804) 349 3108</td>
+            <td>chester</td>
+            <td>virgina</td>
+            <td>Proverbs 3:5-6</td>
+        </tr>
+  
+    </table>
+
+        
+        <h2>Things I Want to Learn</h2>
+        <ol>
+            <li>I want to learn more about javascript and the different coding langauges</li>
+            <li>To become more advanced in html and css</li>
+            <li>How to become a better website deisgner</li>
+            <li>Become more confident in my coding</li>
+        </ol>
+    </div>
+</body>
+</html>
